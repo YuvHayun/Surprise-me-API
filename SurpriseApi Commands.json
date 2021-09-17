@@ -1,0 +1,417 @@
+{
+	"info": {
+		"_postman_id": "b43065df-be61-46e8-a791-e98414352133",
+		"name": "SurpriseApi Commands",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/stats",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Chuck Norris Joke, user name sum or reversed user name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/surprise?name=Jim_Carrey&birth_year=1962&upsidedown=true",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"surprise"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Jim_Carrey"
+						},
+						{
+							"key": "birth_year",
+							"value": "1962"
+						},
+						{
+							"key": "upsidedown",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Chuck Norris Joke only",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/surprise?name=Quentin_Tarantino&birth_year=1963&upsidedown=false",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"surprise"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Quentin_Tarantino"
+						},
+						{
+							"key": "birth_year",
+							"value": "1963"
+						},
+						{
+							"key": "upsidedown",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Chuck Norris joke or user name sum",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/surprise?name=Cristiano_Ronaldo&birth_year=1985&upsidedown=false",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"surprise"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Cristiano_Ronaldo"
+						},
+						{
+							"key": "birth_year",
+							"value": "1985"
+						},
+						{
+							"key": "upsidedown",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Kanye West quote, user name sum or reversed user name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/surprise?name=Billie_Eilish&birth_year=2001&upsidedown=true",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"surprise"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Billie_Eilish"
+						},
+						{
+							"key": "birth_year",
+							"value": "2001"
+						},
+						{
+							"key": "upsidedown",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Kanye West quote only",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/surprise?name=Quvenzhane_Wallis&birth_year=2003&upsidedown=false",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"surprise"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Quvenzhane_Wallis"
+						},
+						{
+							"key": "birth_year",
+							"value": "2003"
+						},
+						{
+							"key": "upsidedown",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get user name sum only",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/surprise?name=Ali_Baba&birth_year=2005&upsidedown=false",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"surprise"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Ali_Baba"
+						},
+						{
+							"key": "birth_year",
+							"value": "2005"
+						},
+						{
+							"key": "upsidedown",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Chuck Norris joke or user name sum, another option",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/surprise?name=Damon_Albarn&birth_year=1968",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"surprise"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Damon_Albarn"
+						},
+						{
+							"key": "birth_year",
+							"value": "1968"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Chuck Norris Joke or reversed user name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/surprise?name=Queen Latifah&birth_year=1970&upsidedown=true",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"surprise"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Queen Latifah"
+						},
+						{
+							"key": "birth_year",
+							"value": "1970"
+						},
+						{
+							"key": "upsidedown",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get reversed user name or user name sum",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/surprise?name=Ali_Baba&birth_year=2005&upsidedown=true",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"surprise"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Ali_Baba"
+						},
+						{
+							"key": "birth_year",
+							"value": "2005"
+						},
+						{
+							"key": "upsidedown",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get missing params error",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/surprise?name=Alex_Turner",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"surprise"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Alex_Turner"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get wrong birth_year format error",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/surprise?name=No_One&birth_year=200s5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"surprise"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "No_One"
+						},
+						{
+							"key": "birth_year",
+							"value": "200s5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get wrong name format error",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/surprise?name=No_One&birth_year=200s5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"surprise"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "No_One"
+						},
+						{
+							"key": "birth_year",
+							"value": "200s5"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
